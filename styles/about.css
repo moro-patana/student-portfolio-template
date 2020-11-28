@@ -1,6 +1,7 @@
 .about {
     padding: 1rem;
-    background-color: #F2F2F2;
+    background-color: #FFFFFF;
+    border-radius: 12px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;

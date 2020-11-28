@@ -29872,12 +29872,17 @@ function About() {
     className: "address-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "address"
-  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", null, "Name"), /*#__PURE__*/_react.default.createElement("p", null, "Job")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCE9email"), /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCDE Phone"))), /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English. ", /*#__PURE__*/_react.default.createElement("br", null), "Here's how to use the sample text generator.")));
+  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", null, "Manjaka Randrianirina"), /*#__PURE__*/_react.default.createElement("p", null, "Front-end developer")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCE9 randrianirinaholisoa@gmail.com"), /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCDE +261 34 345 81"))), /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English."), /*#__PURE__*/_react.default.createElement("p", null, "Here's how to use the sample text generator.")));
 }
 
 var _default = About;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../styles/about.css":"styles/about.css","../img/my-profile.jpg":"img/my-profile.jpg"}],"pages/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../styles/about.css":"styles/about.css","../img/my-profile.jpg":"img/my-profile.jpg"}],"styles/body.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"pages/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29889,6 +29894,8 @@ var _react = _interopRequireDefault(require("react"));
 
 var _about = _interopRequireDefault(require("../components/about"));
 
+require("../styles/body.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
@@ -29899,7 +29906,7 @@ function App() {
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../components/about":"components/about.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components/about":"components/about.js","../styles/body.css":"styles/body.css"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
