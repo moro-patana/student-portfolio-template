@@ -1,6 +1,6 @@
 import React from 'react'
 import Interior from "../img/interior.png"
-import { Link } from "react-router-dom"
+import '../styles/blog.css'
 
 function RecipeBlog(props) {
     return (
