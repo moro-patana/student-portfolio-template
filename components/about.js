@@ -5,7 +5,7 @@ function About() {
     return (
         <article className="about">
             <img src="" alt="my profile"/>
-            <div className="about">
+            <div>
                 <div className="address">
                     <div>
                         <h3>Name</h3>
