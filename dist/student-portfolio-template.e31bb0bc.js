@@ -29990,9 +29990,21 @@ function RecipeBlog(props) {
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _interior.default,
     alt: "design"
-  }), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "#HTML #CSS #responsive"), /*#__PURE__*/_react.default.createElement("h2", null, "Recipe Blog"), /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English. Here's how to use the sample text generator."), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("button", null, /*#__PURE__*/_react.default.createElement("a", {
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "blog__description"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "blog__category"
+  }, "#HTML #CSS #responsive"), /*#__PURE__*/_react.default.createElement("h2", null, "Recipe Blog"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "blog__details"
+  }, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English. Here's how to use the sample text generator."), /*#__PURE__*/_react.default.createElement("div", {
+    className: "blog__buttons__link"
+  }, /*#__PURE__*/_react.default.createElement("button", {
+    className: "btn btn-blue"
+  }, /*#__PURE__*/_react.default.createElement("a", {
     href: "https://interior-consultant-mjk.netlify.app/"
-  }, "Demo")), /*#__PURE__*/_react.default.createElement("button", null, /*#__PURE__*/_react.default.createElement("a", {
+  }, "Demo")), /*#__PURE__*/_react.default.createElement("button", {
+    className: "btn btn-white"
+  }, /*#__PURE__*/_react.default.createElement("a", {
     href: "https://github.com/moro-patana/interior-consultant"
   }, "Code")))));
 }

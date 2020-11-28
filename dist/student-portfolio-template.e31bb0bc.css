@@ -54,5 +54,67 @@ body {
         column-gap: 40px;
     }
 }
+.blog {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 20px
+}
+.blog a {
+    text-decoration: none;
+    color: white;
+}
+.blog img {
+    height: 400px;
+}
+.blog__category,
+.blog h2,
+.blog__details {
+    margin: 0;
+    padding-top: 20px
+}
+.blog__buttons__link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+}
+.btn {
+    width: 135px;
+    height: 46px;
+    border: none;
+    border-radius: 12px;
+}
+.btn-blue {
+    background-color: #5C94E1;
+}
+.btn-white > a {
+    color: #5C94E1;
+}
+
+@media (min-width: 1114px) {
+    .blog {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        column-gap: 52px;
+    }
+    .blog img {
+        width: 400px;
+        height: 270px;
+    }
+    .blog__category {
+        padding-top: 0;
+    }
+    .blog h2 {
+        padding-top: 25px;
+    }
+    .blog__buttons__link {
+        padding-top: 50px
+    }
+    .blog__details {
+        width: 520px;
+        height: 80px;
+    }
+}
 
 /*# sourceMappingURL=/student-portfolio-template.e31bb0bc.css.map */
