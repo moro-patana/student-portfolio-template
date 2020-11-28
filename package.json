@@ -1,0 +1,19 @@
+{
+  "name": "student-portfolio-template",
+  "version": "1.0.0",
+  "description": "Challenge: Create all the elements in the given designs and then create a portfolio with your own content. You can create your own layout. Don’t look at the existing solution. Fulfill user stories below:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moro-patana/student-portfolio-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moro-patana/student-portfolio-template/issues"
+  },
+  "homepage": "https://github.com/moro-patana/student-portfolio-template#readme"
+}
