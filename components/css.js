@@ -1,5 +1,5 @@
 import React from 'react'
-import LearnCss from "../img/css.jpg"
+import LearnCss from "../img/learning-css.jpg"
 import '../styles/organiseCss.css'
 
 
