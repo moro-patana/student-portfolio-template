@@ -1,5 +1,6 @@
 import React from "react"
 import About from "../components/about"
+import '../styles/body.css'
 
 function App() {
     return (
