@@ -29868,7 +29868,9 @@ function About() {
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _myProfile.default,
     alt: "my profile"
-  }), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "address-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "address"
   }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", null, "Name"), /*#__PURE__*/_react.default.createElement("p", null, "Job")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCE9email"), /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCDE Phone"))), /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English. ", /*#__PURE__*/_react.default.createElement("br", null), "Here's how to use the sample text generator.")));
 }
