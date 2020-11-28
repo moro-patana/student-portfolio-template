@@ -17,6 +17,9 @@
 img {
     width: 100%;
 }
+.information {
+    padding-top: 2rem;
+} 
 body {
     margin: 0;
     padding: 1rem;
