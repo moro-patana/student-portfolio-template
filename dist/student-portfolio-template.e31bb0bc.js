@@ -29907,6 +29907,8 @@ function FrontEnd(props) {
   return /*#__PURE__*/_react.default.createElement("article", {
     className: "progress"
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Front end"), /*#__PURE__*/_react.default.createElement("div", {
+    class: "progress__bar__container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "progress-bar"
   }, /*#__PURE__*/_react.default.createElement("label", {
     for: "react"
@@ -29954,7 +29956,7 @@ function FrontEnd(props) {
     id: "react-native",
     max: "100",
     value: "30"
-  }, " 30% ")));
+  }, " 30% "))));
 }
 
 var _default = FrontEnd;
