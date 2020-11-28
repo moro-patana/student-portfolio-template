@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/frontEnd.css'
 
 function FrontEnd(props) {
     return (
