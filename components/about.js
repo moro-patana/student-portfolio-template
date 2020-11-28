@@ -1,10 +1,11 @@
 import React from "react"
 import  "../styles/about.css"
+import profile from "../img/my-profile.jpg"
 
 function About() {
     return (
         <article className="about">
-            <img src="" alt="my profile"/>
+            <img src={profile} alt="my profile"/>
             <div>
                 <div className="address">
                     <div>

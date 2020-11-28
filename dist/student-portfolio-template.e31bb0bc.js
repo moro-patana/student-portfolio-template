@@ -29844,7 +29844,9 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/about.js":[function(require,module,exports) {
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"img/my-profile.jpg":[function(require,module,exports) {
+module.exports = "/my-profile.317a1272.jpg";
+},{}],"components/about.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29856,13 +29858,15 @@ var _react = _interopRequireDefault(require("react"));
 
 require("../styles/about.css");
 
+var _myProfile = _interopRequireDefault(require("../img/my-profile.jpg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function About() {
   return /*#__PURE__*/_react.default.createElement("article", {
     className: "about"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: "",
+    src: _myProfile.default,
     alt: "my profile"
   }), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "address"
@@ -29871,7 +29875,7 @@ function About() {
 
 var _default = About;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../styles/about.css":"styles/about.css"}],"pages/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../styles/about.css":"styles/about.css","../img/my-profile.jpg":"img/my-profile.jpg"}],"pages/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
