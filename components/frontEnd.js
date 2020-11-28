@@ -5,7 +5,7 @@ function FrontEnd(props) {
     return (
         <article className="progress">
             <h2>Front end</h2>
-            <div class="progress__bar__container">
+            <div className="progress__bar__container">
                 <div className="progress-bar">
                     <label for="react">React</label>
                     <progress id="react" max="100" value="70"> 70% </progress>
