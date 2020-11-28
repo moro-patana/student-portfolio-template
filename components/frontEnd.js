@@ -1,6 +1,6 @@
 import React from 'react'
 
-function frontEnd(props) {
+function FrontEnd(props) {
     return (
         <article>
             <div>
@@ -34,5 +34,5 @@ function frontEnd(props) {
 }
 
 
-export default frontEnd
+export default FrontEnd
 
