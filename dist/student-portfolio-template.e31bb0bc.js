@@ -29884,7 +29884,61 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"pages/App.js":[function(require,module,exports) {
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/frontEnd.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function FrontEnd(props) {
+  return /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+    for: "react"
+  }, "React"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "react",
+    max: "100",
+    value: "70"
+  }, " 70% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+    for: "javascript"
+  }, "Javascript"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "javascript",
+    max: "100",
+    value: "70"
+  }, " 60% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+    for: "css"
+  }, "CSS"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "css",
+    max: "100",
+    value: "70"
+  }, " 70% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+    for: "vue"
+  }, "Vue"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "vue",
+    max: "100",
+    value: "70"
+  }, " 2% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+    for: "redux"
+  }, "Redux"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "redux",
+    max: "100",
+    value: "70"
+  }, " 10% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+    for: "react-native"
+  }, "React Native"), /*#__PURE__*/_react.default.createElement("progress", {
+    id: "react-native",
+    max: "100",
+    value: "70"
+  }, " 30% ")));
+}
+
+var _default = FrontEnd;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"pages/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29898,17 +29952,19 @@ var _about = _interopRequireDefault(require("../components/about"));
 
 require("../styles/body.css");
 
+var _frontEnd = _interopRequireDefault(require("../components/frontEnd"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Students Portfolio"), /*#__PURE__*/_react.default.createElement(_about.default, null));
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Students Portfolio"), /*#__PURE__*/_react.default.createElement(_about.default, null), /*#__PURE__*/_react.default.createElement(_frontEnd.default, null));
 }
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../components/about":"components/about.js","../styles/body.css":"styles/body.css"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components/about":"components/about.js","../styles/body.css":"styles/body.css","../components/frontEnd":"components/frontEnd.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
