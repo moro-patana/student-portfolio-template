@@ -5,8 +5,19 @@
     margin-top: 20px;
 }
 .progress-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
     padding-bottom: 20px;
+ }
+ progress {
+     grid-column:  2 / 4;
+     width: 100%;
+ }
+@media (min-width: 1114px) {
+    .progress__bar__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+    }
 }

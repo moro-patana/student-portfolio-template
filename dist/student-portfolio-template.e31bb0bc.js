@@ -29907,7 +29907,7 @@ function FrontEnd(props) {
   return /*#__PURE__*/_react.default.createElement("article", {
     className: "progress"
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Front end"), /*#__PURE__*/_react.default.createElement("div", {
-    class: "progress__bar__container"
+    className: "progress__bar__container"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "progress-bar"
   }, /*#__PURE__*/_react.default.createElement("label", {
