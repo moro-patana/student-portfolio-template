@@ -30042,9 +30042,13 @@ function OrganiseCss() {
   }, "Blog")), /*#__PURE__*/_react.default.createElement("h2", null, "How to organise your css")), /*#__PURE__*/_react.default.createElement("img", {
     src: _learningCss.default,
     alt: "Learn coding css"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io.", /*#__PURE__*/_react.default.createElement("br", null), "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("a", {
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "learn__css__method"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "learn__css__instruction"
+  }, "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io."), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("a", {
     href: "/dev"
-  }, "dev.to")));
+  }, "dev.to"))));
 }
 
 var _default = OrganiseCss;
