@@ -29921,7 +29921,7 @@ function FrontEnd(props) {
   }, "Javascript"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "javascript",
     max: "100",
-    value: "70"
+    value: "60"
   }, " 60% ")), /*#__PURE__*/_react.default.createElement("div", {
     className: "progress-bar"
   }, /*#__PURE__*/_react.default.createElement("label", {
@@ -29937,7 +29937,7 @@ function FrontEnd(props) {
   }, "Vue"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "vue",
     max: "100",
-    value: "70"
+    value: "2"
   }, " 2% ")), /*#__PURE__*/_react.default.createElement("div", {
     className: "progress-bar"
   }, /*#__PURE__*/_react.default.createElement("label", {
@@ -29945,7 +29945,7 @@ function FrontEnd(props) {
   }, "Redux"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "redux",
     max: "100",
-    value: "70"
+    value: "10"
   }, " 10% ")), /*#__PURE__*/_react.default.createElement("div", {
     className: "progress-bar"
   }, /*#__PURE__*/_react.default.createElement("label", {
@@ -29953,7 +29953,7 @@ function FrontEnd(props) {
   }, "React Native"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "react-native",
     max: "100",
-    value: "70"
+    value: "30"
   }, " 30% ")));
 }
 
