@@ -5,7 +5,7 @@ import '../styles/organiseCss.css'
 
 function OrganiseCss() {
     return (
-        <article>
+        <article className="learn__css">
             <header>
                 <p><a href="/">Blog</a></p>
                 <h2>How to organise your css</h2>
