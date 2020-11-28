@@ -29872,7 +29872,9 @@ function About() {
     className: "address-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "address"
-  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", null, "Manjaka Randrianirina"), /*#__PURE__*/_react.default.createElement("p", null, "Front-end developer")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCE9 randrianirinaholisoa@gmail.com"), /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCDE +261 34 345 81"))), /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English."), /*#__PURE__*/_react.default.createElement("p", null, "Here's how to use the sample text generator.")));
+  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", null, "Manjaka Randrianirina"), /*#__PURE__*/_react.default.createElement("p", null, "Front-end developer")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCE9 randrianirinaholisoa@gmail.com"), /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCDE +261 34 345 81"))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "information"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English."), /*#__PURE__*/_react.default.createElement("p", null, "Here's how to use the sample text generator."))));
 }
 
 var _default = About;

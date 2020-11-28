@@ -17,10 +17,12 @@ function About() {
                         <p>📞 +261 34 345 81</p>
                     </div>
                 </div>
-                <p>Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English.
-                </p>
-
-                <p>Here's how to use the sample text generator.</p>
+                <div className="information">
+                    <p>Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English.
+                    </p>
+    
+                    <p>Here's how to use the sample text generator.</p>
+                </div>
             </div>
         </article>
 
