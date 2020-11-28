@@ -4,6 +4,7 @@ import '../styles/frontEnd.css'
 function FrontEnd(props) {
     return (
         <article className="progress">
+            <h2>Front end</h2>
             <div className="progress-bar">
                 <label for="react">React</label>
                 <progress id="react" max="100" value="70"> 70% </progress>

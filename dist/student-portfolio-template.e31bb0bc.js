@@ -29906,7 +29906,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function FrontEnd(props) {
   return /*#__PURE__*/_react.default.createElement("article", {
     className: "progress"
-  }, /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Front end"), /*#__PURE__*/_react.default.createElement("div", {
     className: "progress-bar"
   }, /*#__PURE__*/_react.default.createElement("label", {
     for: "react"
