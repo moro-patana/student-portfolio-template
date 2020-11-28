@@ -30011,7 +30011,45 @@ function RecipeBlog(props) {
 
 var _default = RecipeBlog;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../img/interior.png":"img/interior.png","../styles/blog.css":"styles/blog.css"}],"pages/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../img/interior.png":"img/interior.png","../styles/blog.css":"styles/blog.css"}],"img/learning-css.jpg":[function(require,module,exports) {
+module.exports = "/learning-css.b3037d2b.jpg";
+},{}],"styles/organiseCss.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/css.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _learningCss = _interopRequireDefault(require("../img/learning-css.jpg"));
+
+require("../styles/organiseCss.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function OrganiseCss() {
+  return /*#__PURE__*/_react.default.createElement("article", {
+    className: "learn__css"
+  }, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "/"
+  }, "Blog")), /*#__PURE__*/_react.default.createElement("h2", null, "How to organise your css")), /*#__PURE__*/_react.default.createElement("img", {
+    src: _learningCss.default,
+    alt: "Learn coding css"
+  }), /*#__PURE__*/_react.default.createElement("p", null, "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io.", /*#__PURE__*/_react.default.createElement("br", null), "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."), /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "/dev"
+  }, "dev.to")));
+}
+
+var _default = OrganiseCss;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../img/learning-css.jpg":"img/learning-css.jpg","../styles/organiseCss.css":"styles/organiseCss.css"}],"pages/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30029,17 +30067,19 @@ var _frontEnd = _interopRequireDefault(require("../components/frontEnd"));
 
 var _blog = _interopRequireDefault(require("../components/blog"));
 
+var _css = _interopRequireDefault(require("../components/css"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Students Portfolio"), /*#__PURE__*/_react.default.createElement(_about.default, null), /*#__PURE__*/_react.default.createElement(_frontEnd.default, null), /*#__PURE__*/_react.default.createElement(_blog.default, null));
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Students Portfolio"), /*#__PURE__*/_react.default.createElement(_about.default, null), /*#__PURE__*/_react.default.createElement(_blog.default, null), /*#__PURE__*/_react.default.createElement(_frontEnd.default, null), /*#__PURE__*/_react.default.createElement(_css.default, null));
 }
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../components/about":"components/about.js","../styles/body.css":"styles/body.css","../components/frontEnd":"components/frontEnd.js","../components/blog":"components/blog.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components/about":"components/about.js","../styles/body.css":"styles/body.css","../components/frontEnd":"components/frontEnd.js","../components/blog":"components/blog.js","../components/css":"components/css.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
