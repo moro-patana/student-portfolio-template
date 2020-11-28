@@ -29884,6 +29884,11 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+},{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/frontEnd.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
 },{"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/frontEnd.js":[function(require,module,exports) {
 "use strict";
 
@@ -29894,40 +29899,56 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+require("../styles/frontEnd.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function FrontEnd(props) {
-  return /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+  return /*#__PURE__*/_react.default.createElement("article", {
+    className: "progress"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "progress-bar"
+  }, /*#__PURE__*/_react.default.createElement("label", {
     for: "react"
   }, "React"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "react",
     max: "100",
     value: "70"
-  }, " 70% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 70% ")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "progress-bar"
+  }, /*#__PURE__*/_react.default.createElement("label", {
     for: "javascript"
   }, "Javascript"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "javascript",
     max: "100",
     value: "70"
-  }, " 60% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 60% ")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "progress-bar"
+  }, /*#__PURE__*/_react.default.createElement("label", {
     for: "css"
   }, "CSS"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "css",
     max: "100",
     value: "70"
-  }, " 70% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 70% ")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "progress-bar"
+  }, /*#__PURE__*/_react.default.createElement("label", {
     for: "vue"
   }, "Vue"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "vue",
     max: "100",
     value: "70"
-  }, " 2% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 2% ")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "progress-bar"
+  }, /*#__PURE__*/_react.default.createElement("label", {
     for: "redux"
   }, "Redux"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "redux",
     max: "100",
     value: "70"
-  }, " 10% ")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("label", {
+  }, " 10% ")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "progress-bar"
+  }, /*#__PURE__*/_react.default.createElement("label", {
     for: "react-native"
   }, "React Native"), /*#__PURE__*/_react.default.createElement("progress", {
     id: "react-native",
@@ -29938,7 +29959,7 @@ function FrontEnd(props) {
 
 var _default = FrontEnd;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"pages/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../styles/frontEnd.css":"styles/frontEnd.css"}],"pages/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

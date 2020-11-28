@@ -1,0 +1,12 @@
+.progress {
+    padding: 1rem;
+    background-color: #ffff;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
