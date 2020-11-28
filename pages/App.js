@@ -1,8 +1,12 @@
 import React from "react"
+import About from "../components/about"
 
 function App() {
     return (
-        <h1>Students Portfolio</h1>
+        <div class="container">
+            <h1>Students Portfolio</h1>
+            <About/>
+        </div>
     )
 }
 export default App;
