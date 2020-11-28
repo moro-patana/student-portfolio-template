@@ -1,11 +1,12 @@
 import React from "react"
 
+
 function About() {
     return (
-        <article>
+        <div>
             <img src="" alt="my profile"/>
-            <div>
-                <div>
+            <div className="about">
+                <div className="address">
                     <div>
                         <h3>Name</h3>
                         <p>Job</p>
@@ -18,7 +19,7 @@ function About() {
                 <p>Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English. <br></br>
                 Here's how to use the sample text generator.</p>
             </div>
-        </article>
+        </div>
 
     )
 }

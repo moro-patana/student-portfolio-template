@@ -29785,10 +29785,14 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function About() {
-  return /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
     src: "",
     alt: "my profile"
-  }), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", null, "Name"), /*#__PURE__*/_react.default.createElement("p", null, "Job")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCE9email"), /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCDE Phone"))), /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English. ", /*#__PURE__*/_react.default.createElement("br", null), "Here's how to use the sample text generator.")));
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "about"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "address"
+  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", null, "Name"), /*#__PURE__*/_react.default.createElement("p", null, "Job")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCE9email"), /*#__PURE__*/_react.default.createElement("p", null, "\uD83D\uDCDE Phone"))), /*#__PURE__*/_react.default.createElement("p", null, "Ever need to create some filler text in your Word document or PowerPoint presentation to test formatting and layout? Microsoft Office can quickly create this dummy text for you with lorem ipsum Latin or random sentences in English. ", /*#__PURE__*/_react.default.createElement("br", null), "Here's how to use the sample text generator.")));
 }
 
 var _default = About;
@@ -29809,7 +29813,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function App() {
   return /*#__PURE__*/_react.default.createElement("div", {
-    class: "container"
+    className: "container"
   }, /*#__PURE__*/_react.default.createElement("h1", null, "Students Portfolio"), /*#__PURE__*/_react.default.createElement(_about.default, null));
 }
 
@@ -29855,7 +29859,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53618" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54760" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
