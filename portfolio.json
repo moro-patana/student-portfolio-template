@@ -1,25 +1,28 @@
 [
     {
         "id":1606708703648,
+        "photo": "https://bit.ly/3ljjvRN",
         "title": "Hit Parade",
-        "descrption":"Popular songs list",
-        "type": "React",
+        "description":"Popular songs list",
+        "type": "#React",
         "demo": "https://pedantic-hit-parade.netlify.app/",
         "code": "https://github.com/moro-patana/hit-parade-react"
     },
     {
         "id":1606708683144,
+        "photo": "https://bit.ly/3o81SWZ",
         "title": "Crew Team",
-        "descrption":"Homepage of front-end developer team",
-        "type": "responsive",
+        "description":"Homepage of front-end developer team",
+        "type": "#HTML #CSS responsive",
         "demo": "https://team-creative-crew.netlify.app/",
         "code": "https://github.com/moro-patana/my-team-page"
     },
     {
         "id":1606708668370,
+        "photo": "https://bit.ly/2HOFwtZ",
         "title": "Interior consultant",
-        "descrption":"Creating a design with css and sass",
-        "type": "responsive",
+        "description":"Creating a design with css and sass",
+        "type": "#HTML #CSS responsive",
         "demo": "https://interior-consultant-mjk.netlify.app/",
         "code": "https://github.com/moro-patana/interior-consultant"
     }
