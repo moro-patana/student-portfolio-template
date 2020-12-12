@@ -1,0 +1,24 @@
+[
+    {
+        "id":1607167183757,
+        "logo": "https://bit.ly/3gdwMdD",
+        "date": "January 2019 - December 2019",
+        "title": "Advanced English Speaker",
+        "description": "We learn English for a year. I have never spoken English before but I can speak."
+    },
+    {
+        "id":1607167183753,
+        "logo": "https://bit.ly/3lQTKZy",
+        "date": "January 2020 - October 2020",
+        "title": "Learn CSS",
+        "description": "I started to learn coding in January 2020."
+    },
+    {
+        "id":1607167183751,
+        "logo": "https://bit.ly/37BoQzc",
+        "date": "January 2020 - December 2020",
+        "title": "Learn Javascript",
+        "description": "I lerned Javascript including react, vanilla javascript and react hooks"
+    }
+
+]

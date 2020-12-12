@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    background: #F2F2F2;
+}
+img {
+    width: 100%;
+    border-radius: 12px;
+}
+.about-me {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.profile-picture {
+    border-radius: 12px;
+}
+.more-about,
+.social-media {
+    display: flex;
+    flex-direction: column;
+}
+.more-about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+}
+/*Hobbies styles*/
+.hobbies {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+.hobby-container {
+    display: flex;
+    flex-direction: column;
+}
+.hobby-card {
+    margin-bottom: 1rem;
+}
+
+/* Experiences styles*/
+
+.experiences {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.experience-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding-bottom: 1rem;
+}
+.experience-card img {
+    grid-column: 1 / 2;
+}
+.experience-info {
+    grid-column: 2 / 4;
+}
+
+/*Designs styles*/
+.designs {
+    margin-top: 1rem;
+}
+.design-card {
+    background-color: #ffff;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+.button-link {
+    display: flex;
+    flex-direction: row;
+}
+.button-link a {
+    text-decoration: none;
+    color: #5C94E1;
+}
+.button-link button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4F4F4F;
+    margin-right: 20px;
+    width: 135px;
+    height: 46px;
+    border: none;
+    border-radius: 12px;
+}
+.button-link button:focus {
+    background-color: #5C94E1;
+    color: #FFFFFF;
+}
+.blue-btn {
+    background-color: #5C94E1;
+}
+.blue-btn a {
+    color: #FFFFFF;
+}
+.search-list {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+@media (min-width: 1114px) {
+    .profile {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+    .profile-picture {
+        grid-column: 1 / 2;
+    }
+    .info-container {
+        grid-column: 2 / 4;
+    }
+    .information {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hobbies img {
+        height: 50%;
+    }
+    .hobby-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+    }
+
+    .experience-post {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+
+    
+}
