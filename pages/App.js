@@ -22,6 +22,7 @@ import { Switch, Route } from "react-router-dom"
 import '../styles/body.css'
 import About from "../components/about"
 import Responsive from "../components/designList"
+import DesignItem from "../components/designItem"
 function App() {
   return (
       <div className="container">
@@ -29,6 +30,9 @@ function App() {
           <Switch>
               <Route path="/">
                   <Responsive/>
+              </Route>
+              <Route path="/:designId">
+                  <DesignItem/>
               </Route>
           </Switch>
       </div>
